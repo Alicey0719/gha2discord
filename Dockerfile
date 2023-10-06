@@ -1,4 +1,4 @@
-FROM mirror.gcr.io/python:3.11.5
+FROM python:3.11.5
 
 ENV TZ JST-9
 ENV PYTHONUNBUFFERED 1
