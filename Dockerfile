@@ -10,4 +10,4 @@ RUN python3 -m pip install -r /tmp/requirements.txt
 WORKDIR /opt/app/
 COPY app/ /opt/app/
 
-ENTRYPOINT["python3", "app.py"]
+ENTRYPOINT ["python3", "app.py"]
