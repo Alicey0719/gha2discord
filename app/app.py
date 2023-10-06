@@ -14,9 +14,9 @@ if __name__ == "__main__":
         traceback.print_exc()
 
     sw = SendWebhook(webhook_url)
-    sw.username = os.environ.get("MESSAGE_USERNAME", "GitHubActions")
+    sw.username = os.environ.get("MESSAGE_USERNAME", "GitHub Actions")
     sw.avatar_url = os.environ.get("MESSAGE_AVATAR_URL", "")
-    sw.author_name = os.environ.get("MESSAGE_AUTHORNAME", "GitHubAvtions Notification")
+    sw.author_name = os.environ.get("MESSAGE_AUTHORNAME", "GitHub Actions Notification")
     sw.author_icon_url = os.environ.get("MESSAGE_AUTHORICON_URL", "")
     comment = os.environ.get("MESSAGE_COMMENT", "default message")
 
